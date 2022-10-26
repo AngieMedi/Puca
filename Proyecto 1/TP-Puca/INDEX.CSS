@@ -1,0 +1,252 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 2em;}
+h2{ font-size: 1.8em;}
+h3{ font-size: 1.75;}
+p{ font-size: 1em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(9, 13, 220);
+}
+
+button:hover{
+    background-color: rgb(87, 85, 87);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color: rgb(9, 13, 220); }
+
+header{
+    background-color: rgb(158, 154, 154);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(9, 13, 220);
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 3px 1px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(13, 13, 13);
+    }
+
+header a:hover{
+    color: rgb(9, 13, 220);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    );
+    background-image: url(img/1200px-Argentina_Air_Force_FMA_IA-58A_Pucara_Lofting-1.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#hero h1{
+    color: rgb(0, 0, 0);
+    
+}
+
+#hero .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+
+/*#hero button{
+    font-size: 1.75em;
+}*/
+
+#Prototipos .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Prototipos{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#Prototipos .container{
+    padding: 150px 12px;
+}
+
+#Hemeroteca h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    
+
+}
+
+
+#Hemeroteca p{
+    display: none;
+    
+}
+
+
+
+
+#Hemeroteca .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    
+    ,url("img/folleto\ 1.jpg");
+
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/IA-58146.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        
+    )
+    ,url("img/remo1.png");
+    
+
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 150px 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(15, 14, 14);
+}
+
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+}
+
+footer*/
+
+
+ 
+
+
+    
+     
+
